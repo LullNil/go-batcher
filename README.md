@@ -2,21 +2,21 @@
 
 A generic and thread-safe batcher for Go, designed to accumulate items over time or until a capacity is reached, then process them in bulk.
 
-## ✨ Features
+## Features
 
-- ✅ Support for generics
-- ✅ Thread-safe
-- ✅ Auto-flush on timeout or capacity
-- ✅ Supports batch add: `Add(x1, x2, ..., xn)`
-- ✅ Graceful shutdown via context
+- Support for generics
+- Thread-safe
+- Auto-flush on timeout or capacity
+- Supports batch add: `Add(x1, x2, ..., xn)`
+- Graceful shutdown via context
 
-## 🔧 Installation
+## Installation
 
 ```bash
 go get github.com/LullNil/go-batcher
 ```
 
-## 📦 Usage
+## Usage
 
 ```go
 import "github.com/LullNil/go-batcher"
@@ -33,7 +33,7 @@ func main() {
 }
 ```
 
-## 🛠 Use Cases
+## Use Cases
 
 - Database inserts in bulk
 - REST API batching
